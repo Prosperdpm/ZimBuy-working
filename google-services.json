@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "564486314458",
+    "project_id": "zimbuy-60bd4",
+    "storage_bucket": "zimbuy-60bd4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564486314458:android:1d758379ee8fd40c83c8e3",
+        "android_client_info": {
+          "package_name": "Com.dpmtech.ZimBuy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5Mo_kOgfMA9OnCSRfiGsprXXShOHHfAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
