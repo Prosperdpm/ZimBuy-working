@@ -1,6 +1,6 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.zimbuy">
+    package="com.dpmtech.zimbuy">
     <application
         android:label="ZimBuy"
         android:icon="@mipmap/ic_launcher">
