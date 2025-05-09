@@ -1,10 +1,21 @@
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dpmtech.zimbuy">
+
     <application
+        android:name="${applicationName}"
         android:label="ZimBuy"
         android:icon="@mipmap/ic_launcher">
-        <meta-data         android:name="flutterEmbedding"         android:value="2" />
+
+        <!-- Flutter V2 Embedding -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+
+        <!-- AdMob App ID -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8582581880250635~9436653657" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -19,4 +30,6 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
+
