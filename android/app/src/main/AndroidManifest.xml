@@ -2,11 +2,11 @@
     package="com.dpmtech.zimbuy">
 
     <application
-        android:name="${applicationName}"
+        android:name="{applicationName}"
         android:label="ZimBuy"
         android:icon="@mipmap/ic_launcher">
-
-        <!-- Flutter V2 Embedding -->
+        
+        <!-- Flutter V2 embedding -->
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
@@ -14,7 +14,7 @@
         <!-- AdMob App ID -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8582581880250635~9436653657" />
+            android:value="ca-app-pub-8582581880250635~9436653657"/>
 
         <activity
             android:name=".MainActivity"
@@ -30,6 +30,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
-
